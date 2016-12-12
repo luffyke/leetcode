@@ -1,7 +1,7 @@
-package com.smartx;
+package org.smartx;
 
 /**
- * <b><code>Leetcode2</code></b>
+ * <b><code>Java2</code></b>
  * <p>
  * You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -9,7 +9,7 @@ package com.smartx;
  * </p>
  * @author kext
  */
-public class Leetcode2 {
+public class Java2 {
 
 	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		// 算出两个节点的长度，取出最长的作为循环
@@ -68,4 +68,3 @@ public class Leetcode2 {
 		return result;
 	}
 }
-

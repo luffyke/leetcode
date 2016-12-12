@@ -1,4 +1,4 @@
-package com.smartx;
+package org.smartx;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,15 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * <b><code>Leetcode3</code></b>
+ * <b><code>Java3</code></b>
  * <p>
  * Given a string, find the length of the longest substring without repeating characters. For example, the longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
  * </p>
  * <b>Creation Time:</b> 2015年6月25日 上午11:37:54
  * @author kext
- * @since mdoctor 1.0
  */
-public class Leetcode3 {
+public class Java3 {
 
 	public int lengthOfLongestSubstring(String s) {
 		if (s == null || s.length() == 0) {
