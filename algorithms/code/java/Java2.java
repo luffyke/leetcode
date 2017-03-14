@@ -1,7 +1,5 @@
-package org.smartx;
-
 /**
- * <b><code>Java2</code></b>
+ * <b><code>AddTwoNumbers</code></b>
  * <p>
  * You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -9,7 +7,15 @@ package org.smartx;
  * </p>
  * @author kext
  */
-public class Java2 {
+ /**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class AddTwoNumbers {
 
 	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		// 算出两个节点的长度，取出最长的作为循环

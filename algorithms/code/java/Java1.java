@@ -1,7 +1,5 @@
-package org.smartx;
-
 /**
- * <b><code>Java1</code></b>
+ * <b><code>TwoSum</code></b>
  * <p>
  * Given an array of integers, find two numbers such that they add up to a specific target number.
  * The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
@@ -11,16 +9,9 @@ package org.smartx;
  * </p>
  * @author kext
  */
-public class Java1 {
+public class TwoSum {
 
-	public static void main(String[] args) {
-		int[] nums = { 2, 11, 7, 15 };
-		int target = 18;
-		int[] result = twoSum(nums, target);
-		System.out.println("index1=" + result[0] + ", index2=" + result[1]);
-	}
-
-	public static int[] twoSum(int[] nums, int target) {
+	public int[] twoSum(int[] nums, int target) {
 		int[] result = new int[2];
 		for (int i = 0; i < nums.length; i++) {
 			for (int j = i + 1; j < nums.length; j++) {
