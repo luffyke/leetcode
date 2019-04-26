@@ -13,4 +13,4 @@
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Java](./java/115/DistinctSubsequences.java)|Hard|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](./java/03/LengthOfLongestSubstring.java)|Medium|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](./java/02/AddTwoNumbers.java)|Medium|
-|1|[Two Sum](https://leetcode.com/problems/two-sum) | [Java](./java/01/TwoSum.java)|Easy|
+|1|[Two Sum](https://leetcode.com/problems/two-sum) | [Java](./java/01/TwoSum.java) [scala](./scala/01/TwoSum.scala)|Easy|
